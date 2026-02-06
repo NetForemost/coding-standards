@@ -5,7 +5,8 @@ These guidelines exist to keep the codebase clean, predictable, and maintainable
 
 They also help speed up PR reviews and reduce unnecessary back-and-forth.
 
-> [!NOTE] If your PR does not follow these rules, it will be requested for changes.
+> [!NOTE] 
+> If your PR does not follow these rules, it will be requested for changes.
 
 ## 🎯 Core Philosophy
 
@@ -167,14 +168,23 @@ Remove all console logs before committing.
 
 Bad:
 
+```
 // old logic
 // const x = ...
+```
 
 Delete it.
 
 Git already keeps history.
 
-> [!NOTE] Good comments are **context comments**. E.g. trying to explain why something was done in a specific way. Comments should not explain the code but provide business logic context if necessary.
+> [!NOTE] 
+> Good comments are **context comments**. E.g. trying to explain why something was done in a specific way. Comments should not explain the code but provide business logic context if necessary.
+
+Good:
+
+```
+// The business requires us to save browser data for audit purposes, that's why wo do this
+```
 
 ## 🟥 Backend (.NET) Standards
 ### Follow Existing Architecture
@@ -193,7 +203,8 @@ Respect:
 
 ### No Magic Values 
 
-> [!INFO] (This applies to both front, back and any other app layer)
+> [!INFO] 
+> (This applies to both front, back and any other app layer)
 
 Bad:
 
@@ -245,8 +256,6 @@ Tested:
 ### 📝 PR Description Template
 
 Use this format:
-
----
 
 #### What
 Short description of change.
