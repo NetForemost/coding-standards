@@ -203,7 +203,7 @@ Respect:
 
 ### No Magic Values 
 
-> [!INFO] 
+> [!IMPORTANT] 
 > (This applies to both front, back and any other app layer)
 
 Bad:
