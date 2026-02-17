@@ -230,6 +230,17 @@ Prefer:
 OrderDto result
 ```
 
+## ‼️❌ REGEX 
+
+Unless strictly necessary, don´t use regex in the code.
+
+Regex functionalities for comparing strings tend to grow in terms of usage and when you see it, the function using regex is being used everywhere but what a surprise, nobody knows how the regex works anymore. 
+
+Everytime you start typing a regex in the code make this question to yourself, can this be done in a simpler way? Can this be done using simple string operations?
+
+> [!IMPORTANT] 
+> (This applies to both front, back and any other app layer)
+
 ## 📁 File Placement Rules
 
 Do not create files in new folders unless explicitly approved.
@@ -307,4 +318,5 @@ Guessing costs more time than asking.
 - Clean PRs
 - Predictable architecture
 - Fast reviews
+
 - Strong engineers
